@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    height: 250px;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    border-radius: 7px;
+    box-shadow: 1px 0px 3px gray;
+
+}
+
+img {
+    height: 180px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-weight: normal;
+}

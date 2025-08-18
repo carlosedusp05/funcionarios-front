@@ -5,7 +5,7 @@ import funcionarios from './funcionarios.json' with {type: 'json'}
 function criarCards(dados) {
     const container = document.getElementById('container')
     const card = document.createElement('div')
-    const img = document.createElement(`img`)
+    const img = document.createElement('img')
     const nome = document.createElement('h1')
     const cargo = document.createElement('h2')
     const pastaImg = "./img/"
@@ -27,7 +27,9 @@ function criarCards(dados) {
 }
 
 function carregarDados() {
-    funcionarios.forEach(criarCards)
+    const conteudo = funcionarios
+
+    conteudo.forEach(criarCards)
 }
 
 carregarDados()
